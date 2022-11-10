@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF27EDFE291CAA620062F250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27EDFD291CAA620062F250 /* LaunchScreen.storyboard */; };
+		BF27EE00291CAA6D0062F250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27EDFF291CAA6D0062F250 /* Main.storyboard */; };
 		BF8D2C86291C937D00CE8D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2C85291C937D00CE8D1B /* AppDelegate.swift */; };
 		BF8D2C88291C937D00CE8D1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2C87291C937D00CE8D1B /* SceneDelegate.swift */; };
 		BF8D2C8A291C937D00CE8D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2C89291C937D00CE8D1B /* ViewController.swift */; };
-		BF8D2C8D291C937D00CE8D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8D2C8B291C937D00CE8D1B /* Main.storyboard */; };
 		BF8D2C90291C937D00CE8D1B /* star_wars_planets_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2C8E291C937D00CE8D1B /* star_wars_planets_ios.xcdatamodeld */; };
 		BF8D2C92291C937E00CE8D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8D2C91291C937E00CE8D1B /* Assets.xcassets */; };
-		BF8D2C95291C937E00CE8D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8D2C93291C937E00CE8D1B /* LaunchScreen.storyboard */; };
 		BF8D2CA0291C937F00CE8D1B /* star_wars_planets_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2C9F291C937F00CE8D1B /* star_wars_planets_iosTests.swift */; };
 		BF8D2CAA291C937F00CE8D1B /* star_wars_planets_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2CA9291C937F00CE8D1B /* star_wars_planets_iosUITests.swift */; };
 		BF8D2CAC291C937F00CE8D1B /* star_wars_planets_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2CAB291C937F00CE8D1B /* star_wars_planets_iosUITestsLaunchTests.swift */; };
+		BFD49E50291C97E700380DCC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD49E4F291C97E700380DCC /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF27EDFD291CAA620062F250 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF27EDFF291CAA6D0062F250 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BF8D2C82291C937D00CE8D1B /* star-wars-planets-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "star-wars-planets-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8D2C85291C937D00CE8D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF8D2C87291C937D00CE8D1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF8D2C89291C937D00CE8D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF8D2C8C291C937D00CE8D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF8D2C8F291C937D00CE8D1B /* star_wars_planets_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = star_wars_planets_ios.xcdatamodel; sourceTree = "<group>"; };
 		BF8D2C91291C937E00CE8D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF8D2C94291C937E00CE8D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF8D2C96291C937E00CE8D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF8D2C9B291C937F00CE8D1B /* star-wars-planets-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "star-wars-planets-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8D2C9F291C937F00CE8D1B /* star_wars_planets_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = star_wars_planets_iosTests.swift; sourceTree = "<group>"; };
 		BF8D2CA5291C937F00CE8D1B /* star-wars-planets-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "star-wars-planets-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8D2CA9291C937F00CE8D1B /* star_wars_planets_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = star_wars_planets_iosUITests.swift; sourceTree = "<group>"; };
 		BF8D2CAB291C937F00CE8D1B /* star_wars_planets_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = star_wars_planets_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFD49E4F291C97E700380DCC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,12 @@
 		BF8D2C84291C937D00CE8D1B /* star-wars-planets-ios */ = {
 			isa = PBXGroup;
 			children = (
-				BF8D2C85291C937D00CE8D1B /* AppDelegate.swift */,
-				BF8D2C87291C937D00CE8D1B /* SceneDelegate.swift */,
-				BF8D2C89291C937D00CE8D1B /* ViewController.swift */,
-				BF8D2C8B291C937D00CE8D1B /* Main.storyboard */,
-				BF8D2C91291C937E00CE8D1B /* Assets.xcassets */,
-				BF8D2C93291C937E00CE8D1B /* LaunchScreen.storyboard */,
-				BF8D2C96291C937E00CE8D1B /* Info.plist */,
-				BF8D2C8E291C937D00CE8D1B /* star_wars_planets_ios.xcdatamodeld */,
+				BFD49E55291C99D600380DCC /* Utils */,
+				BFD49E54291C99C800380DCC /* Network */,
+				BFD49E53291C99BC00380DCC /* Models */,
+				BFD49E52291C99AB00380DCC /* Components */,
+				BFD49E4B291C97A200380DCC /* Resources */,
+				BFD49E4A291C976B00380DCC /* Screens */,
 			);
 			path = "star-wars-planets-ios";
 			sourceTree = "<group>";
@@ -128,6 +128,73 @@
 				BF8D2CAB291C937F00CE8D1B /* star_wars_planets_iosUITestsLaunchTests.swift */,
 			);
 			path = "star-wars-planets-iosUITests";
+			sourceTree = "<group>";
+		};
+		BFD49E4A291C976B00380DCC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BF27EDFD291CAA620062F250 /* LaunchScreen.storyboard */,
+				BFD49E51291C981100380DCC /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BFD49E4B291C97A200380DCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFD49E4C291C97B200380DCC /* Localization */,
+				BF8D2C8E291C937D00CE8D1B /* star_wars_planets_ios.xcdatamodeld */,
+				BF8D2C96291C937E00CE8D1B /* Info.plist */,
+				BF8D2C91291C937E00CE8D1B /* Assets.xcassets */,
+				BF8D2C85291C937D00CE8D1B /* AppDelegate.swift */,
+				BF8D2C87291C937D00CE8D1B /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFD49E4C291C97B200380DCC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				BFD49E4F291C97E700380DCC /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		BFD49E51291C981100380DCC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF27EDFF291CAA6D0062F250 /* Main.storyboard */,
+				BF8D2C89291C937D00CE8D1B /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFD49E52291C99AB00380DCC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BFD49E53291C99BC00380DCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFD49E54291C99C800380DCC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BFD49E55291C99D600380DCC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8D2C95291C937E00CE8D1B /* LaunchScreen.storyboard in Resources */,
+				BFD49E50291C97E700380DCC /* Localizable.strings in Resources */,
+				BF27EDFE291CAA620062F250 /* LaunchScreen.storyboard in Resources */,
 				BF8D2C92291C937E00CE8D1B /* Assets.xcassets in Resources */,
-				BF8D2C8D291C937D00CE8D1B /* Main.storyboard in Resources */,
+				BF27EE00291CAA6D0062F250 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,25 +367,6 @@
 			targetProxy = BF8D2CA6291C937F00CE8D1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BF8D2C8B291C937D00CE8D1B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF8D2C8C291C937D00CE8D1B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF8D2C93291C937E00CE8D1B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF8D2C94291C937E00CE8D1B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BF8D2CAD291C937F00CE8D1B /* Debug */ = {
@@ -441,9 +490,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7Z4K4DMX2;
+				DEVELOPMENT_TEAM = 4K9P34469L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "star-wars-planets-ios/Info.plist";
+				INFOPLIST_FILE = "star-wars-planets-ios/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -469,9 +518,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7Z4K4DMX2;
+				DEVELOPMENT_TEAM = 4K9P34469L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "star-wars-planets-ios/Info.plist";
+				INFOPLIST_FILE = "star-wars-planets-ios/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
