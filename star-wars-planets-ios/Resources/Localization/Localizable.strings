@@ -5,3 +5,17 @@
   Created by H A S M Hettiarachchi on 2022-11-10.
   
 */
+
+Error.Title.ResponseError = "Response Error";
+Error.Title.ConnectionError = "Connection Error";
+Error.Title.ProcessingError = "Processing Error";
+
+/* message */
+Error.Message.Offline = "Device is not connected to the internet. Please check your mobile internet connection.";
+Error.Message.noData = "Server returns no data.";
+Error.Message.respondError = "Error occurred while responding to the your request. Please try again later.";
+Error.Message.connectServerError = "Failed to connect to the server please try again later.";
+
+/* Buttons */
+Button.Ok = "Ok";
+Button.Retry = "Retry";
