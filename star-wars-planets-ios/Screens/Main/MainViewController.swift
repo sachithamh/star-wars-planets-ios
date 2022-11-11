@@ -30,6 +30,8 @@ class MainViewController: UIViewController {
     }
 
     private func setup() {
+        title = "screen.main.title".localized
+
         // table view cell register to table view
         let planetNib = UINib(nibName: "PlanetTableViewCell", bundle: nil)
         tableView.register(planetNib, forCellReuseIdentifier: "cell")

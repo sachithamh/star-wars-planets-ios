@@ -22,6 +22,9 @@ Button.Retry = "Retry";
 
 /* Screens */
 
+/* MainViewController */
+screen.main.title = "Planets";
+
 /* PlanetDetailViewController */
 screen.planetDetail.planetNameInfo = "Planet Name";
 screen.planetDetail.climateInfo = "Climate";
