@@ -18,7 +18,11 @@ class MainViewController: UIViewController {
 
     let refreshControl = UIRefreshControl()
     private let viewModel = MainViewModel()
-    private let bag = DisposeBag()
+    private let disposeBag = DisposeBag()
+
+    enum SegueIdentifier: String {
+       case planetDetail = "planetDetailSegue"
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +40,15 @@ class MainViewController: UIViewController {
         viewModel.planets.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: PlanetTableViewCell.self)) {(row,item,cell) in
             cell.map(planet: item)
 
-        }.disposed(by: bag)
+        }.disposed(by: disposeBag)
+
+        tableView.rx.itemSelected
+          .subscribe(onNext: { [weak self] indexPath in
+              guard let self = self else {return}
+
+              self.performSegue(withIdentifier: SegueIdentifier.planetDetail.rawValue, sender: self.viewModel.planets.value[indexPath.row])
+
+          }).disposed(by: disposeBag)
 
         viewModel.isLoarding.asObservable().bind {[weak self] value in
             DispatchQueue.main.async {[weak self] in
@@ -56,7 +68,7 @@ class MainViewController: UIViewController {
             }
 
 
-        }.disposed(by: bag)
+        }.disposed(by: disposeBag)
 
         fetchData()
 
@@ -84,7 +96,13 @@ class MainViewController: UIViewController {
         }
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == SegueIdentifier.planetDetail.rawValue {
+            if let planet = sender as? Planet, let vc = segue.destination as? PlanetDetailViewController {
+                vc.viewModel.planet.accept(planet)
+            }
+        }
+    }
 }
 
 extension MainViewController: UITableViewDelegate {

@@ -40,6 +40,9 @@
 		BFBBC57A291D68E900B27AA8 /* PaginatedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBBC579291D68E900B27AA8 /* PaginatedResult.swift */; };
 		BFBBC57C291D6BC100B27AA8 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBBC57B291D6BC100B27AA8 /* Planet.swift */; };
 		BFBBC57E291D6FB500B27AA8 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBBC57D291D6FB500B27AA8 /* AlertController.swift */; };
+		BFBBC584291D966800B27AA8 /* PlanetDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBBC583291D966800B27AA8 /* PlanetDetail.storyboard */; };
+		BFBBC586291D96A200B27AA8 /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBBC585291D96A200B27AA8 /* PlanetDetailViewController.swift */; };
+		BFBBC588291DE73F00B27AA8 /* PlanetDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBBC587291DE73F00B27AA8 /* PlanetDetailViewModel.swift */; };
 		BFD49E50291C97E700380DCC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD49E4F291C97E700380DCC /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +96,9 @@
 		BFBBC579291D68E900B27AA8 /* PaginatedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedResult.swift; sourceTree = "<group>"; };
 		BFBBC57B291D6BC100B27AA8 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		BFBBC57D291D6FB500B27AA8 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		BFBBC583291D966800B27AA8 /* PlanetDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PlanetDetail.storyboard; path = "star-wars-planets-ios/Screens/PlanetDetail/PlanetDetail.storyboard"; sourceTree = SOURCE_ROOT; };
+		BFBBC585291D96A200B27AA8 /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
+		BFBBC587291DE73F00B27AA8 /* PlanetDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewModel.swift; sourceTree = "<group>"; };
 		BFD49E4F291C97E700380DCC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,11 +233,22 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		BFBBC582291D963900B27AA8 /* PlanetDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BFBBC583291D966800B27AA8 /* PlanetDetail.storyboard */,
+				BFBBC585291D96A200B27AA8 /* PlanetDetailViewController.swift */,
+				BFBBC587291DE73F00B27AA8 /* PlanetDetailViewModel.swift */,
+			);
+			path = PlanetDetail;
+			sourceTree = "<group>";
+		};
 		BFD49E4A291C976B00380DCC /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				BF27EDFD291CAA620062F250 /* LaunchScreen.storyboard */,
 				BFD49E51291C981100380DCC /* Main */,
+				BFBBC582291D963900B27AA8 /* PlanetDetail */,
+				BF27EDFD291CAA620062F250 /* LaunchScreen.storyboard */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -427,6 +444,7 @@
 				BFBBC562291D557100B27AA8 /* PlanetTableViewCell.xib in Resources */,
 				BFD49E50291C97E700380DCC /* Localizable.strings in Resources */,
 				BF27EDFE291CAA620062F250 /* LaunchScreen.storyboard in Resources */,
+				BFBBC584291D966800B27AA8 /* PlanetDetail.storyboard in Resources */,
 				BF8D2C92291C937E00CE8D1B /* Assets.xcassets in Resources */,
 				BF27EE00291CAA6D0062F250 /* Main.storyboard in Resources */,
 			);
@@ -457,6 +475,7 @@
 				BF27EE26291CACD90062F250 /* String+Extension.swift in Sources */,
 				BF8D2C90291C937D00CE8D1B /* star_wars_planets_ios.xcdatamodeld in Sources */,
 				BFBBC572291D599500B27AA8 /* PlanetsAPI.swift in Sources */,
+				BFBBC586291D96A200B27AA8 /* PlanetDetailViewController.swift in Sources */,
 				BFBBC57E291D6FB500B27AA8 /* AlertController.swift in Sources */,
 				BFBBC561291D557100B27AA8 /* PlanetTableViewCell.swift in Sources */,
 				BFBBC574291D5AAC00B27AA8 /* App.swift in Sources */,
@@ -470,6 +489,7 @@
 				BF8D2C8A291C937D00CE8D1B /* MainViewController.swift in Sources */,
 				BFBBC566291D577900B27AA8 /* Reachability.swift in Sources */,
 				BF8D2C86291C937D00CE8D1B /* AppDelegate.swift in Sources */,
+				BFBBC588291DE73F00B27AA8 /* PlanetDetailViewModel.swift in Sources */,
 				BF8D2C88291C937D00CE8D1B /* SceneDelegate.swift in Sources */,
 				BF27EE02291CAB0B0062F250 /* API.swift in Sources */,
 				BFBBC578291D5FFB00B27AA8 /* APIError.swift in Sources */,

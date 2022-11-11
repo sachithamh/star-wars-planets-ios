@@ -57,6 +57,7 @@
                         <outlet property="loadingIndicatorView" destination="Zxh-Oe-kWt" id="kdG-En-tCI"/>
                         <outlet property="tableView" destination="ZRq-TU-66i" id="HZ3-aK-8Qw"/>
                         <outlet property="tableViewLoadMoreIndicatorView" destination="lKZ-m8-u8R" id="kBg-yU-9kO"/>
+                        <segue destination="wl8-2c-cYT" kind="show" identifier="planetDetailSegue" id="WR4-Ig-WCu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -80,6 +81,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jw3-jY-ATX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-283" y="122"/>
+        </scene>
+        <!--PlanetDetail-->
+        <scene sceneID="GuW-z9-ciJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlanetDetail" id="wl8-2c-cYT" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mxf-aw-Rhu"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WG1-0m-b5y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="122"/>
         </scene>
     </scenes>
     <resources>
